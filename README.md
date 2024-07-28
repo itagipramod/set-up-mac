@@ -84,7 +84,7 @@ Sometimes we might need to know on which branch we are working upon and what is 
 
 Every time running the command like git branch or pwd is an unnecessary task.
 
-To simplify this, copy and paste the below code in.zshrc pr .bashrc file and save it.
+To simplify this, copy and paste the below code in.zshrc or .bashrc file and save it.
 
 Open the .zshrc file using below command.
 

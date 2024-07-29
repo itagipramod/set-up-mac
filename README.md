@@ -62,7 +62,23 @@ node --version
 npm --version
 ```
 
-## Step 5: Install Visual Studio Code
+## Step 5: Install Yarn
+
+Yarn is the package manager to install JavaScript dependencies. We can use yarn to add, remove, update or configure the packages in our project.
+
+First, you need to install Yarn using homebrew package manager. Use below command.
+
+```bash
+brew install yarn
+```
+
+Verify the installation using below command:
+
+```brew
+yarn --version
+```
+
+## Step 6: Install Visual Studio Code
 
 Visual Studio Code (VS Code) is a popular code editor developed by Microsoft. It's lightweight, extensible, and great for web development. Download and install VS Code from the official website: [Visual Studio Code](https://code.visualstudio.com/) or install it using Homebrew using below command.
 
@@ -78,7 +94,7 @@ Once the installation is complete, run the below command to verify if VS Code is
 code .
 ```
 
-## Step 6: Show branch name and present working directory in Terminal
+## Step 7: Show branch name and present working directory in Terminal
 
 Sometimes we might need to know on which branch we are working upon and what is the current directory where we are committing the changes.
 
@@ -117,6 +133,7 @@ Once the code is saved in the file, just simply restart the Terminal. Voila! bra
 - [Homebrew Documentation](https://docs.brew.sh/)
 - [Git Documentation](https://git-scm.com/doc)
 - [Node.js Documentation](https://nodejs.org/en/docs/)
+- [Yarn Documentation](https://classic.yarnpkg.com/lang/en/docs/)
 - [Visual Studio Code Documentation](https://code.visualstudio.com/docs)
 
 ---

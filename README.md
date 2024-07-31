@@ -78,7 +78,44 @@ Verify the installation using below command:
 yarn --version
 ```
 
-## Step 6: Install Visual Studio Code
+## Step 6: Install MySQL
+
+MySQL is an open-source relational database management system (RDBMS) essential for running MySQL queries and managing databases. To streamline the process, we use MySQL Workbench, a user-friendly UI application that allows for direct query execution and database management.
+
+Installing MySQL is crucial for our development environment since many of our applications rely on it. MySQL is widely used in the industry and offers compatibility with most deployment tools, making it a reliable choice for our projects.
+
+To install MySQL, we are using homebrew. Run below commands.
+
+```brew
+brew search mysql
+brew install mysql@5.7  
+```
+
+Once installation is complete, just run below commands in terminal.
+
+```brew
+echo 'export PATH="/opt/homebrew/opt/mysql@5.7/bin:$PATH"' >> ~/.zshrc
+export LDFLAGS="-L/opt/homebrew/opt/mysql@5.7/lib"  
+export CPPFLAGS="-I/opt/homebrew/opt/mysql@5.7/include"
+brew services start mysql@5.7
+```
+
+After this, close and reopen the terminal. To verify MySQL version, run below command.
+
+```brew
+mysql --version
+```
+
+After this, to start command line MySQL, run below command.
+
+```brew
+mysql -uroot 
+```
+
+
+
+
+## Step 7: Install Visual Studio Code
 
 Visual Studio Code (VS Code) is a popular code editor developed by Microsoft. It's lightweight, extensible, and great for web development. Download and install VS Code from the official website: [Visual Studio Code](https://code.visualstudio.com/) or install it using Homebrew using below command.
 
@@ -94,7 +131,7 @@ Once the installation is complete, run the below command to verify if VS Code is
 code .
 ```
 
-## Step 7: Show branch name and present working directory in Terminal
+## Step 8: Show branch name and present working directory in Terminal
 
 Sometimes we might need to know on which branch we are working upon and what is the current directory where we are committing the changes.
 

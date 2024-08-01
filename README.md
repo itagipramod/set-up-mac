@@ -74,7 +74,7 @@ brew install yarn
 
 Verify the installation using below command:
 
-```brew
+```bash
 yarn --version
 ```
 
@@ -86,14 +86,14 @@ Installing MySQL is crucial for our development environment since many of our ap
 
 To install MySQL, we are using homebrew. Run below commands.
 
-```brew
+```bash
 brew search mysql
 brew install mysql@5.7  
 ```
 
 Once installation is complete, just run below commands in terminal.
 
-```brew
+```bash
 echo 'export PATH="/opt/homebrew/opt/mysql@5.7/bin:$PATH"' >> ~/.zshrc
 export LDFLAGS="-L/opt/homebrew/opt/mysql@5.7/lib"  
 export CPPFLAGS="-I/opt/homebrew/opt/mysql@5.7/include"
@@ -102,20 +102,31 @@ brew services start mysql@5.7
 
 After this, close and reopen the terminal. To verify MySQL version, run below command.
 
-```brew
+```bash
 mysql --version
 ```
 
 After this, to start command line MySQL, run below command.
 
-```brew
+```bash
 mysql -uroot 
 ```
 
+## Step 7: Install MySQL Workbench
 
+After installing MySQL, it's essential to install MySQL Workbench. It is a GUI based application which can be used to run the queries, view tables, export data and many more actions through GUI.
 
+Writing queries manually in terminal sometimes becomes difficult task as queries will be not be saved. We can use MySQL Workbench to perform all these and it's very easy to use as well.
 
-## Step 7: Install Visual Studio Code
+To install MySQL Workbench, just run below command.
+
+```bash
+brew install --cask mysqlworkbench
+```
+
+Once the installation gets successful, open the MySQL Workbench application and set up database name, port, user and password etc.
+
+## Step 8: Install Visual Studio Code
 
 Visual Studio Code (VS Code) is a popular code editor developed by Microsoft. It's lightweight, extensible, and great for web development. Download and install VS Code from the official website: [Visual Studio Code](https://code.visualstudio.com/) or install it using Homebrew using below command.
 
@@ -131,7 +142,7 @@ Once the installation is complete, run the below command to verify if VS Code is
 code .
 ```
 
-## Step 8: Show branch name and present working directory in Terminal
+## Step 9: Show branch name and present working directory in Terminal
 
 Sometimes we might need to know on which branch we are working upon and what is the current directory where we are committing the changes.
 
@@ -171,6 +182,7 @@ Once the code is saved in the file, just simply restart the Terminal. Voila! bra
 - [Git Documentation](https://git-scm.com/doc)
 - [Node.js Documentation](https://nodejs.org/en/docs/)
 - [Yarn Documentation](https://classic.yarnpkg.com/lang/en/docs/)
+- [MySQL Workbench Documentation](https://dev.mysql.com/doc/)
 - [Visual Studio Code Documentation](https://code.visualstudio.com/docs)
 
 ---

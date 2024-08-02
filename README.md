@@ -2,6 +2,18 @@
 
 This guide will walk you through setting up your Mac for software development. Whether you're a beginner or an experienced developer, these steps will help you get your environment ready for coding.
 
+## Contents
+
+1. [XCode Command Line Tools](#step-1-install-xcode-command-line-tools)
+2. [Homebrew](#step-2-install-homebrew)
+3. [Git](#step-3-install-git)
+4. [Node JS](#step-4-install-nodejs)
+5. [Yarn](#step-5-install-yarn)
+6. [MySQL](#step-6-install-mysql)
+7. [MySQL Workbench](#step-7-install-mysql-workbench)
+8. [Visual Studio Code](#step-8-install-visual-studio-code)
+9. [Branch name and PWD in Terminal](#step-9-show-branch-name-and-present-working-directory-in-terminal)
+
 ## Step 1: Install Xcode Command Line Tools
 
 We don't need to install Xcode as we are not developing any Apple based applications. Instead we need Command Line Tools. This is required to run commands in Terminal. It's just a package which contains most of the commands.

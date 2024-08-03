@@ -4,7 +4,7 @@ This guide will walk you through setting up your Mac for software development. W
 
 ## Contents
 
-1. [XCode Command Line Tools](#step-1-install-xcode-command-line-tools)
+1. [Xcode Command Line Tools](#step-1-install-xcode-command-line-tools)
 2. [Homebrew](#step-2-install-homebrew)
 3. [Git](#step-3-install-git)
 4. [Node JS](#step-4-install-nodejs)
@@ -13,6 +13,7 @@ This guide will walk you through setting up your Mac for software development. W
 7. [MySQL Workbench](#step-7-install-mysql-workbench)
 8. [Visual Studio Code](#step-8-install-visual-studio-code)
 9. [Branch name and PWD in Terminal](#step-9-show-branch-name-and-present-working-directory-in-terminal)
+10. [Additional Resources](#additional-resources)
 
 ## Step 1: Install Xcode Command Line Tools
 
@@ -194,7 +195,8 @@ Once the code is saved in the file, just simply restart the Terminal. Voila! bra
 - [Git Documentation](https://git-scm.com/doc)
 - [Node.js Documentation](https://nodejs.org/en/docs/)
 - [Yarn Documentation](https://classic.yarnpkg.com/lang/en/docs/)
-- [MySQL Workbench Documentation](https://dev.mysql.com/doc/)
+- [MySQL Documentation](https://dev.mysql.com/doc/)
+- [MySQL Workbench Documentation](https://dev.mysql.com/doc/workbench/en/)
 - [Visual Studio Code Documentation](https://code.visualstudio.com/docs)
 
 ---
